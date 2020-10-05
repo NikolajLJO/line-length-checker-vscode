@@ -2,8 +2,12 @@
 	"name": "line-length-highlighter",
 	"displayName": "line_length_highlighter",
 	"description": "Highligts a line when it exeeds a certain length",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "nilj",
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/NikolajLJO/line-length-checker-vscode.git"
+	  },
 	"engines": {
 		"vscode": "^1.49.0"
 	},

@@ -1,13 +1,13 @@
 import * as vscode from 'vscode';
 export function activate(context: vscode.ExtensionContext) {
-	console.log("launch");
 		vscode.workspace.onDidChangeTextDocument(event => {
 		let i = 0;
 		if(event.document != undefined){
 			while(i<event.document.lineCount){
 				if(event.document.lineAt(i).text.length>=255){
-					console.log("A line was changed and caught by line-length-highlighter");
-					vscode.window.showInformationMessage("Line too long");
+					console.log("A line was changed and caught by line-length-highlighter bitch");
+					let number = i.toString;
+					vscode.window.showInformationMessage("Line " + number + " too long");
 				}
 				i++;
 			}
