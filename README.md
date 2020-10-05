@@ -8,3 +8,6 @@ Initial
 ### 0.0.2
 * removed launch log
 * added number the line that errors
+
+### 0.0.3
+* cleaned up code

@@ -2,7 +2,7 @@
 	"name": "line-length-highlighter",
 	"displayName": "line_length_highlighter",
 	"description": "Highligts a line when it exeeds a certain length",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "nilj",
 	"repository": {
 		"type" : "git",

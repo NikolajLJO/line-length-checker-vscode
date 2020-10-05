@@ -6,7 +6,7 @@ export function activate(context: vscode.ExtensionContext) {
 			while(i<event.document.lineCount){
 				if(event.document.lineAt(i).text.length>=255){
 					console.log("A line was changed and caught by line-length-highlighter bitch");
-					let number = i.toString;
+					let number = i.toString();
 					vscode.window.showInformationMessage("Line " + number + " too long");
 				}
 				i++;
